@@ -8,11 +8,10 @@ import type { ModalState } from '../../types';
 
 interface ResultsSectionProps {
   isVisible: boolean;
-  modalState: ModalState;
   setModalState: React.Dispatch<React.SetStateAction<ModalState>>;
 }
 
-const ResultsSection: React.FC<ResultsSectionProps> = ({ isVisible, modalState, setModalState }) => {
+const ResultsSection: React.FC<ResultsSectionProps> = ({ isVisible, setModalState }) => {
   return (
     <section 
       id="results" 

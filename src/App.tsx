@@ -101,7 +101,6 @@ const FractalRegularizationTerminal: React.FC = () => {
       {/* Results Section */}
       <ResultsSection 
         isVisible={visibleSections.has('results')} 
-        modalState={modalState}
         setModalState={setModalState}
       />
 

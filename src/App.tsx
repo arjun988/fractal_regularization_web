@@ -85,6 +85,8 @@ const FractalRegularizationTerminal: React.FC = () => {
           }} />
         </div>
       </div>
+      {/* Analytics */}
+      <Analytics />
 
       {/* Navigation */}
       <Navigation />
@@ -116,8 +118,6 @@ const FractalRegularizationTerminal: React.FC = () => {
       {/* Graph Modals */}
       <GraphModals modalState={modalState} setModalState={setModalState} />
       
-      {/* Analytics */}
-      <Analytics />
     </div>
   );
 };
